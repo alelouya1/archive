@@ -1,0 +1,165 @@
+type veut dire
+0 (pour chiffre, entier ou décimal)
+"" veut dire chaine de caractère
+True/False pour boolément, oui ou non
+[] liste
+{} objet
+ref. Reference
+null fini
+
+type objet
+{
+"mom" : type,
+"pomme" : type
+}
+{type : type}
+
+type list
+["blabla",]
+[type,]
+
+def ressource: 
+	"Bloc de Production" : ["Artisanat", "Alchimie", "Enchantement", "Forge", "Herboristerie", "Mixture de potions" ]
+	"Revenu" :
+	"Composantes magiques" :
+	"Autre" : ["Joyau", "lettre" ]
+
+Les donnes sont ici
+Discipline : {
+"Commune" : {
+	"Endurance" : 0, // max 3
+	"Énergie" : 0, // max 3
+	},
+"Combattante" : {
+	"Discipline" : {
+		"Résilience" : null,
+		"Endurcie" : null,
+		"Loyauté" : null,
+		"Doctrine" : null,
+		"Vigilance" : null,
+	}
+	"Karma" : 0, // max 5
+	"Offense" : {
+		"Assaut" : null,,
+		"Jambette" : null,
+		"Désarmement" : null,
+		"Coupe-souffle" : null,
+		"Charge" : null,
+	}
+	"Défense" : {
+		"Esquive" : null,
+		"Déflexion" : null,
+		"Déviation" : null,
+		"Santé" : null,
+		"Second Souffle" : null,
+	}
+}
+"Sournoise" : {
+	"Alchimie" : 0, {production.Alchimie: 4},
+	"Embuscade" : {
+		"Camouflage" : null,
+		"Dissimulation" : null,
+		"Capture" : null,
+		"Piège" : null,
+		"Aveuglement" : null,
+	}
+	"Fourberie" : {
+		"Attaque sournoise" : null,
+		"Coup bas" : null,
+		"Coup sonnant" : null,
+		"Coupe-jarret" : null,
+		"Stylet" : null,
+	}
+	"Travail de précision" : {
+		"Serrurier" : null,
+		"Évasion" : null,
+		"Désamorçage" : null,
+		"Torture" : null,
+		"Vol à la tire" : null,
+	}
+}
+"Magique" : {
+	"Artisanat Arcane" : {
+		"Mixture de potions" : {production."Mixture de Potion": 4},
+		"Enchantement" : {production.Enchantement: 4},
+		"Infusion" : Donne accès au rituel de Création
+		"Réparation" : null,
+		"Disjonction" : null,
+	}
+	"Rituel" : 0, max 5 Donne une école de Magie la première fois.
+	"Sorcellerie" : {
+		"Frénésie" : null,
+		"Terreur" : null,
+		"Noirceur" : null,
+		"Silence" : null,
+		"Éclair" : null,
+	}
+	"Taumatrgie" : {
+		"Guérison" : null,
+		"Réanimation" : null,
+		"Réssurection" : null,
+		"Liberté" : null,
+		"Voix" : null,
+	}
+"Proffesssionelle" :{
+	"Baratin" : {
+		"Diplomatie" : null,
+		"Mensonge" : null,
+		"Revenu" : +10 pièces de monnaie
+		"Verbomoteur" : null,
+		"Discours" : null,
+	}
+	"Marchandage" : 0,
+	"Médecine" : {
+		"Opération" : null,
+		"Suture" : null,
+		"Psychiatrie" : null,
+		"Relaxation" : null,
+		"Pharmacie" : null,
+	}
+	"Métier" : {
+		"Artisanat" : {production.Artisanat: 4},
+		"Forge" : {production.Forge: 4},
+		"Herboristerie" : {production.Herboristerie: 4},
+		"Spécialiste 1" : {
+			"Artisanat" : {production.Artisanat: 2},
+			"Enchantement" : {production.Enchantement: 4},
+			"Mixture de potions" : {production."Mixture de Potion": 2},
+			"Forgeron" : {production.Forge: 2},
+			"Herboristerie" : {production.Herboristerie: 2},
+		}
+		"Spécialiste 2" : {
+			"Artisanat" : {production.Artisanat: 2},
+			"Enchantement" : {production.Enchantement: 4},
+			"Mixture de potions" : {production."Mixture de Potion": 2},
+			"Forgeron" : {production.Forge: 2},
+			"Herboristerie" : {production.Herboristerie: 2},
+		}
+	}
+}
+
+Marché : {
+	"Laboratoire" : {production.Alchimie: 6},
+	"Forge" : {production.Forge: 6},
+	"Atelier" : {production.Artisanat: 6},
+	"Pharmacie" : {production.Herboristerie: 6},
+	"Distillerie" : {production."Mixture de Potion": 6},
+	"Cercle Runique" : {production.Enchantement: 6},
+	"Bijouterie" : {ressource.autre.joyau: 1}
+}
+production.["Artisanat", "Alchimie", "Enchantement", "Forge", "Herboristerie", "Mixture de potions" ]
+
+
+
+"user" : {
+	"nom" : 
+	"prénom" :
+	"faction" : {
+		"Vanican" :
+		"Canavim" :
+		"Vallam" :
+		"Sarsare":
+	}
+	"adresse e-mail" :
+	
+}
