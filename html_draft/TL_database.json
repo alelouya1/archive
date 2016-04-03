@@ -18,7 +18,7 @@ type list
 ["blabla",]
 [type,]
 
-def ressource: 
+def ressource:
 	"Bloc de Production" : ["Artisanat", "Alchimie", "Enchantement", "Forge", "Herboristerie", "Mixture de potions" ]
 	"Revenu" :
 	"Composantes magiques" :
@@ -152,7 +152,7 @@ production.["Artisanat", "Alchimie", "Enchantement", "Forge", "Herboristerie", "
 
 
 "user" : {
-	"nom" : 
+	"nom" :
 	"prénom" :
 	"faction" : {
 		"Vanican" :
@@ -161,5 +161,5 @@ production.["Artisanat", "Alchimie", "Enchantement", "Forge", "Herboristerie", "
 		"Sarsare":
 	}
 	"adresse e-mail" :
-	
+
 }
